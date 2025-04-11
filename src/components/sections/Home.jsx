@@ -16,11 +16,3 @@ export const Home = () => {
         </section>
     );
 }
-
-
-/*
-🔧 Projects – From smart devices to interactive web apps, I like bringing ideas to life with code and hardware.
-💡 Skills – A peek into the tools, languages, and tech I use to make magic happen.
-📄 Resume – The official stuff: education, experience, and what I’ve been up to professionally.
-📬 Contact – Want to collab, chat tech, or just say hi? Let’s connect!Hey there! Brace yourself — this is my digital wonderland! I'm a Software Engineer who loves mixing code, creativity, and a little bit of caffeine to build cool things. Here you'll find my projects, thoughts, and a glimpse into my world of tech. Make yourself at home, click around, and I hope you find something that sparks your interest!
-*/

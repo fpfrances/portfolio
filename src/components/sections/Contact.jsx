@@ -11,10 +11,6 @@ export const Contact = () => {
         message: "",
     })
 
-    const SERVICE_ID = "service_fbmem4y"
-    const TEMPLATE_ID = "template_0ha8osg"
-    const PUBLIC_KEY = "EzgyjCFsu7C_3_mbD"
-
     const handleSubmit = (e) => {
         e.preventDefault()
 
@@ -35,7 +31,7 @@ export const Contact = () => {
     return (
         <section id="contact" className="max-h-screen flex items-center justify-center py-80">
             <RevealOnScroll>
-                <div className="px-4 w-140">
+                <div className="px-4 w-full max-w-[35rem] sm:w-[35rem]">
                     <h2 className="text-4xl font-bold mb-10 bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center">Get In Touch</h2>
                     <form className="space-y-6" onSubmit={handleSubmit}>
                         <div className="relative">
@@ -74,8 +70,8 @@ export const Contact = () => {
                             placeholder="Message...">
                             </textarea>
                         </div>
-                        <button type="submit" className="translate-y-3 w-50 translate-x-43 bg-gradient-to-r from-yellow-500 to-pink-600 text-white py-3 px-6 rounded-full font-medium transition relative overflow-hidden hover:shadow-[0_0_50px_rgba(234,179,8,0.4)]">Send Message</button>
-                        <div className="mt-60 flex justify-center gap-5 items-center pb-8">
+                        <button type="submit" className="translate-y-3 sm:translate-x-43 sm:w-[12.5rem] w-[15rem] mx-auto bg-gradient-to-r from-yellow-500 to-pink-600 text-white py-3 px-6 rounded-full font-medium transition relative overflow-hidden hover:shadow-[0_0_50px_rgba(234,179,8,0.4)]">Send Message</button>
+                        <div className="mt-40 flex justify-center items-center gap-5">
                         <a href="https://www.linkedin.com/in/filipefrances/" target="_blank">
                             <FaLinkedin className="text-3xl text-blue-500 hover:text-blue-600 transition" />
                         </a>
