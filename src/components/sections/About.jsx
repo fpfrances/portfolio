@@ -65,8 +65,8 @@ export const About = () => {
                             </li>
                             <li>
                                 <h3 className="text-xl font-bold mb-4 text-gray-200">Coursework</h3>
-                                <strong>Senior Design II (Fall 2024)</strong><p>Designed a touchscreen interface for an ESP32-driven LCD, with enhanced response and user interaction.</p><br></br>
-                                <strong>Senior Design I (Summer 2024)</strong><p>Designed and implemented an organized project documentation website using HTML, CSS, and JavaScript that provided a one-stop shop for project collaboration and accessibility.</p><br></br>
+                                <strong>Senior Design I & II (Summer/Fall 2024)</strong><p>Designed an interactive touchscreen UI for an LCD powered by an ESP32 to enhance user interface and functionality,
+                                        and created a project documentation site using HTML, CSS, and JavaScript for easy collaboration and enhanced accessibility.</p><br></br>
                                 <strong>Object-Oriented Software Development Processes (Spring 2024)</strong><p>Developed a rental car website with frontend components using JavaScript, HTML, CSS, and MongoDB.</p><br></br>
                                 <strong>Embedded Systems (Fall 2023)</strong><p>Developed projects with MSP430 and ESP32 in C and C++, focusing on real-time systems.</p>
                             </li>
