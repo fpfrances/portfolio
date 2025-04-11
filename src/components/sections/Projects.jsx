@@ -22,7 +22,7 @@ export const Projects = () => {
                         ))}
                         </div>
                         <div className="flex justify-between items-center mt-4">
-                        <a href="" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                        <a href="https://fpfrances.github.io/portfolio" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
                                 Project Link
                             </a>
                         </div>
