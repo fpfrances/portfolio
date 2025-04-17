@@ -1,13 +1,12 @@
 # Portfolio Website
 
-🔗 **Live Site:** [https://your-username.github.io/your-portfolio-repo](https://fpfrances.github.io/portfolio/)
+🔗 **Live Site:** [Portfolio Website](https://fpfrances.github.io/portfolio/)
 
 This is my personal portfolio website built to showcase my projects, skills, and contact information. It features smooth transitions, a mobile-friendly layout, and dynamic content loading.
 
 ## 🚀 Features
 
 - 💻 Fully responsive design
-- 🌙 Dark mode aesthetic
 - 📂 Projects section with smooth animation
 - 📧 Contact form powered by EmailJS
 - 📱 Mobile-friendly navigation with hamburger menu
