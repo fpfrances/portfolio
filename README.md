@@ -1,12 +1,29 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Site:** [https://your-username.github.io/your-portfolio-repo](https://fpfrances.github.io/portfolio/)
 
-Currently, two official plugins are available:
+This is my personal portfolio website built to showcase my projects, skills, and contact information. It features smooth transitions, a mobile-friendly layout, and dynamic content loading.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 💻 Fully responsive design
+- 🌙 Dark mode aesthetic
+- 📂 Projects section with smooth animation
+- 📧 Contact form powered by EmailJS
+- 📱 Mobile-friendly navigation with hamburger menu
+- ⏳ Custom loading screen transition
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **Frontend Framework:** [React](https://reactjs.org/)
+- **Styling:** [TailwindCSS](https://tailwindcss.com/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Email Integration:** [EmailJS](https://www.emailjs.com/)
+
+## 🧠 Inspiration
+
+This project was inspired by a desire to build a modern and minimal portfolio that performs well and is easy to maintain.
+
+## ✨ Acknowledgments
+
+Thanks to tools like TailwindCSS, Vite, and EmailJS for making web development smoother and faster.

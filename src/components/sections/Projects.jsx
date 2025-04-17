@@ -22,7 +22,7 @@ export const Projects = () => {
                         ))}
                         </div>
                         <div className="flex justify-between items-center mt-4">
-                        <a href="https://fpfrances.github.io/portfolio" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                        <a href="https://github.com/fpfrances/portfolio" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
                                 Project Link
                             </a>
                         </div>
@@ -49,20 +49,20 @@ export const Projects = () => {
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2"> Python ATS Scanner</h3>
+                        <h3 className="text-xl font-bold mb-2">AI-Powered ATS Resume Scanner</h3>
                         <p className="text-gray-300 mb-4">
-                        A Python script that scans and parses resumes to extract relevant information such as name, contact details, and skills. 
-                        It uses regular expressions and natural language processing techniques to identify key sections in the resume.
+                        This intelligent resume scanner simulates an Applicant Tracking System (ATS) with LLMs simulating how much a resume fits a job description.
+                        Even though it does not exactly replicate corporate ATS system, it gives an accurate estimate of performance by focusing on technical and soft skills.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["Python", "Llama"].map((tech, key) => (
+                            {["Python", "Flask", "LlamaIndex", "GPT-3.5", "OpenAI API", "JavaScript", "TailwindCSS", "Vite"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
                         ))}
                         </div>
                         <div className="flex justify-between items-center mt-4">
-                        <a href="" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                        <a href="https://github.com/fpfrances/ScannerATS" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
                                 Project Link
                             </a>
                         </div>
