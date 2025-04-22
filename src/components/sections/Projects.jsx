@@ -15,7 +15,7 @@ export const Projects = () => {
                         It features a responsive design to ensure cross-device compatibility, smooth scrolling, and a contact form using EmailJS.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["React.js", "JavaScript", "TailwindCSS", "Vite", "EmailJS"].map((tech, key) => (
+                            {["EmailJS", "JavaScript", "React.js", "TailwindCSS", "Vite"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -35,7 +35,7 @@ export const Projects = () => {
                         with an emphasis on intuitive navigation and clear information presentation.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["C/C++", "MongoDB", "Teamwork", "Collaboration"].map((tech, key) => (
+                            {["C++", "Collaboration", "MongoDB", "Teamwork"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -55,7 +55,7 @@ export const Projects = () => {
                         Even though it does not exactly replicate corporate ATS system, it gives an accurate estimate of performance by focusing on technical and soft skills.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["Python", "Flask", "LlamaIndex", "GPT-3.5", "OpenAI API", "JavaScript", "TailwindCSS", "Vite"].map((tech, key) => (
+                            {["Flask", "GPT-3.5", "JavaScript", "LlamaIndex", "OpenAI API", "Python", "TailwindCSS", "Vite"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -75,7 +75,7 @@ export const Projects = () => {
                         with sections for project overview, technology, and team members. It is built using HTML, CSS, and JavaScript.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["HTML", "JavaScript", "CSS"].map((tech, key) => (
+                            {["CSS", "HTML", "JavaScript"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -95,7 +95,7 @@ export const Projects = () => {
                         The website is designed to provide a great user experience and showcase the coffee roaster's products and services.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["React.js", "HTML", "JavaScript", "CSS"].map((tech, key) => (
+                            {[ "CSS", "HTML", "JavaScript", "React.js"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -115,7 +115,7 @@ export const Projects = () => {
                         The website has features like user authentication, car listing, and a booking system.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["HTML", "JavaScript", "CSS", "Node.js", "MongoDB", "Teamwork", "Collaboration"].map((tech, key) => (
+                            {[ "Collaboration", "CSS", "HTML", "JavaScript", "MongoDB", "Node.js", "Teamwork"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -135,7 +135,7 @@ export const Projects = () => {
                         The CPU is designed to execute a set of instructions and includes components such as ALU, registers, and control unit.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["Verilog", "System Verilog", "Teamwork"].map((tech, key) => (
+                            {["System Verilog", "Teamwork", "Verilog",].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -156,7 +156,7 @@ export const Projects = () => {
                         functionality of the designs and ensure that they meet the specifications.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["Verilog", "System Verilog"].map((tech, key) => (
+                            {["System Verilog", "Verilog"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
