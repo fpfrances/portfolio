@@ -18,7 +18,7 @@ export const About = () => {
 
     const SystemHardwareSkills = [
         "C/C++",
-        "SystemVerilog",
+        "VHDL",
         "Verilog"
     ]
 

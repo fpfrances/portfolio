@@ -135,7 +135,7 @@ export const Projects = () => {
                         The CPU is designed to execute a set of instructions and includes components such as ALU, registers, and control unit.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["SystemVerilog", "Teamwork", "Verilog",].map((tech, key) => (
+                            {["Teamwork", "Verilog"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -156,7 +156,7 @@ export const Projects = () => {
                         functionality of the designs and ensure that they meet the specifications.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["SystemVerilog", "Verilog"].map((tech, key) => (
+                            {["VHDL","Verilog"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
