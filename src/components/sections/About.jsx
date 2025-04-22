@@ -2,25 +2,30 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
     const FrontendSkills = [
-        "React.js",
-        "JavaScript",
-        "HTML",
         "CSS",
+        "HTML",
+        "JavaScript",
+        "React.js",
         "TailwindCSS"
     ];
 
     const BackendSkills = [
-        "Node.js",
-        "MongoDB",
         "Java",
-        "C/C++",
+        "MongoDB",
+        "Node.js",
         "Python",
     ];
+
+    const SystemHardwareSkills = [
+        "C/C++",
+        "SystemVerilog",
+        "Verilog"
+    ]
 
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-25">
             <RevealOnScroll>
-            <div className="max-w-4xl mx-auto px-4">
+            <div className="max-w-4xl mx-auto px-auto">
                 <h2 className="text-4xl font-bold mb-7 bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center">
                     About Me</h2>
 
@@ -31,7 +36,7 @@ export const About = () => {
                 and build intuitive user experiences.
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="rounded-xl p-7 hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">Frontend</h3>
                         <div className="flex flex-wrap gap-2">
@@ -53,6 +58,17 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
+
+                    <div className="rounded-xl p-7 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">System & Hardware</h3>
+                        <div className="flex flex-wrap gap-2">
+                            {SystemHardwareSkills.map((tech, key) =>(
+                                <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">{tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
                 </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
@@ -60,20 +76,27 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Education</h3>
                         <ul className="space-y-1 text-gray-400">
                             <li>
-                                <strong>Bachelor of Science in Computer Engineering</strong> University of Central Florida
-                                <p>Graduated: Fall 2024</p><br></br>
+                                <strong>Bachelor of Science in Computer Engineering</strong> 
+                                <p>University of Central Florida</p>
+                                <p>Graduated: Fall 2024</p>
+                                <p>GPA: 3.1</p><br></br>
                             </li>
                             <li>
                                 <h3 className="text-xl font-bold mb-4 text-gray-200">Coursework</h3>
-                                <strong>Senior Design I & II (Summer/Fall 2024)</strong><p>Designed an interactive touchscreen UI for an LCD powered by an ESP32 to enhance user interface and functionality,
-                                        and created a project documentation site using HTML, CSS, and JavaScript for easy collaboration and enhanced accessibility.</p><br></br>
-                                <strong>Object-Oriented Software Development Processes (Spring 2024)</strong><p>Developed a rental car website with frontend components using JavaScript, HTML, CSS, and MongoDB.</p><br></br>
-                                <strong>Embedded Systems (Fall 2023)</strong><p>Developed projects with MSP430 and ESP32 in C and C++, focusing on real-time systems.</p>
+                                <p><strong>Senior Design I & II</strong></p>
+                                <p><strong>Object-Oriented Software Development Processes</strong></p>
+                                <p><strong>Verification of Digital System</strong></p>
+                                <p><strong>HDL in Digital System Design</strong></p><br></br>
+                            </li>
+                            <li>
+                                <h3 className="text-xl font-bold mb-4 text-gray-200">Award</h3>
+                                <strong>2020 All-Florida Academic Team Award: Recognized for academic excellence, leadership, and community service.</strong><br></br>
+                                <br></br>                    
                             </li>
                         </ul>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 transition-all hover:shadow-[0_0_20px_rgba(234,179,8,0.4)]">
-                        <h3 className="text-xl font-bold mb-4">Experience</h3>
+                        <h3 className="text-xl font-bold mb-4">Relevant Experience</h3>
                         <div className="space-y-8 text-gray-400">
                             <div>
                             <h4><strong> We Love Coffee (Jan 25 – Present)</strong></h4>
