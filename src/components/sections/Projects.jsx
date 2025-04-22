@@ -163,7 +163,7 @@ export const Projects = () => {
                         ))}
                         </div>
                         <div className="flex justify-between items-center mt-4">
-                            <a href="https://www.edaplayground.com/playgrounds/user/617129" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            <a href="https://github.com/fpfrances/Testbenches" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
                                 Project Link
                             </a>
                         </div>
