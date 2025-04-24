@@ -115,14 +115,14 @@ export const Projects = () => {
                         The website has features like user authentication, car listing, and a booking system.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {[ "Collaboration", "CSS", "HTML", "JavaScript", "MongoDB", "Node.js", "Teamwork"].map((tech, key) => (
+                            {[ "Collaboration", "CSS", "Express.js", "HTML", "JavaScript", "MongoDB", "Node.js", "Teamwork"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
                         ))}
                         </div>
                         <div className="flex justify-between items-center mt-3">
-                        <a href="https://github.com/BraydenAntonelli/Car-Rental-Service" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                        <a href="https://github.com/fpfrances/Car-Rental-Service" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
                                 Project Link
                             </a>
                         </div>
