@@ -112,7 +112,7 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Knight's Rental Car Website</h3>
                         <p className="text-gray-300 mb-4">
                         A web application to rent cars, where users can browse through available cars, rent them, and manage their rentals.
-                        The website has features like user authentication, car listing, and a booking system. P.s. This is was my first website and I worked 
+                        The website has features like user authentication, car listing, and a booking system. P.s. This was my first website and I worked 
                         mainly UI/UX.
                         </p>
                         <div className="flex flex-wrap gap-2">
