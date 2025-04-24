@@ -25,4 +25,8 @@ This project was inspired by a desire to build a modern and minimal portfolio th
 
 ## ✨ Acknowledgments
 
-Thanks to tools like TailwindCSS, Vite, and EmailJS for making web development smoother and faster.
+A big thanks to tools like TailwindCSS, Vite, and EmailJS for making web development smoother and faster.
+
+This project was built by following a tutorial from Pedro Henrique Machado. Their detailed instructions and explanations were instrumental in helping me create this portfolio.
+
+You can find his GitHub profile here: [Pedro Henrique Machado](https://github.com/machadop1407)
