@@ -69,7 +69,7 @@ export const Projects = () => {
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">We Love Coffee Website (Working on)</h3>
+                        <h3 className="text-xl font-bold mb-2">We Love Coffee Website</h3>
                         <p className="text-gray-300 mb-4">
                         Building a coffee roaster website using React.js and CSS. The website features a clean design with sections for menu, about us, and contact.
                         The website is designed to provide a great user experience and showcase the coffee roaster's products and services.
