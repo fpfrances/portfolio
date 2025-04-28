@@ -10,7 +10,7 @@ export const RevealOnScroll = ({ children }) => {
             } else {
                 ref.current.classList.remove('visible');
             }
-        }, {threshold: 0.2, rootMargin: "0px 0px -50px 0px"});
+        }, {threshold: 0.2, rootMargin: "0px 0px -45px 0px"});
 
         if (ref.current) observer.observe(ref.current);
             return () => observer.disconnect();
