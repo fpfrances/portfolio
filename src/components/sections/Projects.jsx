@@ -80,8 +80,8 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">We Love Coffee Website</h3>
                         <p className="text-gray-300 mb-4">
-                        Built a coffee roaster website using React.js and CSS. The website features a clean design with sections for menu, about us, and contact.
-                        The website is designed to provide a great user experience and showcase the coffee roaster's products.
+                        Building using React.js and CSS. It features a clean design with sections for menu, about us, types of coffee, orders and contact.
+                        It is designed to provide a great user experience and showcase the coffee roaster's products and services.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {[ "CSS", "HTML", "JavaScript", "React.js"].map((tech, key) => (
