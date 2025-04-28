@@ -15,7 +15,7 @@ export const Projects = () => {
                         It features a responsive design to ensure cross-device compatibility, smooth scrolling, and a contact form using EmailJS.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["EmailJS", "JavaScript", "React.js", "TailwindCSS", "Vite"].map((tech, key) => (
+                            {["EmailJS", "JavaScript", "React.js", "Tailwind CSS", "Vite"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -107,7 +107,7 @@ export const Projects = () => {
                         Even though it does not exactly replicate corporate ATS system, it gives an accurate estimate of performance by focusing on technical and soft skills.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["Flask", "GPT-3.5", "JavaScript", "LlamaIndex", "OpenAI API", "Python", "TailwindCSS", "Vite"].map((tech, key) => (
+                            {["Flask", "GPT-3.5", "JavaScript", "LlamaIndex", "OpenAI API", "Python", "Tailwind CSS", "Vite"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>

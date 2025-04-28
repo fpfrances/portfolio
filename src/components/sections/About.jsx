@@ -6,7 +6,7 @@ export const About = () => {
         "HTML",
         "JavaScript",
         "React.js",
-        "TailwindCSS"
+        "Tailwind CSS"
     ];
 
     const BackendSkills = [
@@ -36,7 +36,7 @@ export const About = () => {
                 and build intuitive user experiences.
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-3 gap-6">
                     <div className="rounded-xl p-7 hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">Frontend</h3>
                         <div className="flex flex-wrap gap-2">
