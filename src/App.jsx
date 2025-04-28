@@ -22,7 +22,6 @@ function App() {
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <Home />
           <About />
-          <div className="h-30 bg-black" />
           <Projects />
           <Contact />
         </div>
