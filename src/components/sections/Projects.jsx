@@ -22,9 +22,6 @@ export const Projects = () => {
                         ))}
                         </div>
                         <div className="flex justify-left items-center mt-4">
-                        <a href="https://fpfrances.github.io/portfolio" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                            ➔ Live Demo
-                            </a><span className="text-gray-400">|</span>
                             <a href="https://github.com/fpfrances/portfolio" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
                                 GitHub Repo
                             </a>
