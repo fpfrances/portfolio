@@ -21,9 +21,12 @@ export const Projects = () => {
                             </span>
                         ))}
                         </div>
-                        <div className="flex justify-between items-center mt-4">
-                        <a href="https://github.com/fpfrances/portfolio" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                Project Link
+                        <div className="flex justify-left items-center mt-4">
+                        <a href="https://fpfrances.github.io/portfolio" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            ➔ Live Demo
+                            </a><span className="text-gray-400">|</span>
+                            <a href="https://github.com/fpfrances/portfolio" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                                GitHub Repo
                             </a>
                         </div>
                     </div>
@@ -41,14 +44,17 @@ export const Projects = () => {
                             </span>
                         ))}
                         </div>
-                        <div className="flex justify-between items-center mt-4">
-                        <a href="https://github.com/fpfrances/Arduino_SDProject" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                Project Link
+                        <div className="flex justify-left items-center mt-4">
+                        <a href="https://youtu.be/9csl4HlAC3I?t=133" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            ➔ Live Demo
+                            </a><span className="text-gray-400">|</span>
+                            <a href="https://github.com/fpfrances/Arduino_SDProject" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                                GitHub Repo
                             </a>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Thermal Dune Energy Storage Website</h3>
                         <p className="text-gray-300 mb-4">
                         A website designed to showcase the Thermal Dune Energy Storage documentation. The website features a clean design,
@@ -61,18 +67,21 @@ export const Projects = () => {
                             </span>
                         ))}
                         </div>
-                        <div className="flex justify-between items-center mt-4">
+                        <div className="flex justify-left items-center mt-4">
+                        <a href="https://fpfrances.github.io/SD1Web" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            ➔ Live Demo
+                            </a><span className="text-gray-400">|</span>
                         <a href="https://github.com/fpfrances/SD1Web" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                Project Link
+                            GitHub Repo
                             </a>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">We Love Coffee Website</h3>
                         <p className="text-gray-300 mb-4">
-                        Building a coffee roaster website using React.js and CSS. The website features a clean design with sections for menu, about us, and contact.
-                        The website is designed to provide a great user experience and showcase the coffee roaster's products and services.
+                        Built a coffee roaster website using React.js and CSS. The website features a clean design with sections for menu, about us, and contact.
+                        The website is designed to provide a great user experience and showcase the coffee roaster's products.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {[ "CSS", "HTML", "JavaScript", "React.js"].map((tech, key) => (
@@ -81,14 +90,17 @@ export const Projects = () => {
                             </span>
                         ))}
                         </div>
-                        <div className="flex justify-between items-center mt-4">
+                        <div className="flex justify-left items-center mt-4">
+                        <a href="https://fpfrances.github.io/coffee_website" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            ➔ Live Demo
+                            </a><span className="text-gray-400">|</span>
                         <a href="https://github.com/fpfrances/coffee_website" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                Project Link
+                                GitHub Repo
                             </a>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">AI-Powered ATS Resume Scanner</h3>
                         <p className="text-gray-300 mb-4">
                         This intelligent resume scanner simulates an Applicant Tracking System (ATS) with LLMs simulating how much a resume fits a job description.
@@ -101,14 +113,17 @@ export const Projects = () => {
                             </span>
                         ))}
                         </div>
-                        <div className="flex justify-between items-center mt-4">
+                        <div className="flex justify-left items-center mt-4">
+                        <a href="https://fpfrances.github.io/ScannerATS" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            ➔ Live Demo
+                            </a><span className="text-gray-400">|</span>
                         <a href="https://github.com/fpfrances/ScannerATS" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                Project Link
+                                GitHub Repo
                             </a>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Knight's Rental Car Website</h3>
                         <p className="text-gray-300 mb-4">
                         A web application to rent cars, where users can browse through available cars, rent them, and manage their rentals.
@@ -122,14 +137,17 @@ export const Projects = () => {
                             </span>
                         ))}
                         </div>
-                        <div className="flex justify-between items-center mt-3">
+                        <div className="flex justify-left items-center mt-3">
+                        <a href="https://fpfrances.github.io/Car-Rental-Service" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            ➔ Live Demo
+                            </a><span className="text-gray-400">|</span>
                         <a href="https://github.com/fpfrances/Car-Rental-Service" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                Project Link
+                                GitHub Repo
                             </a>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Multi-Cycle CPU Implementation</h3>
                         <p className="text-gray-300 mb-4">
                         A multi-cycle CPU implementation using Verilog. This project includes a testbench to verify the functionality of the CPU.
@@ -142,14 +160,14 @@ export const Projects = () => {
                             </span>
                         ))}
                         </div>
-                        <div className="flex justify-between items-center mt-4">
+                        <div className="flex justify-left items-center mt-4">
                         <a href="https://github.com/fpfrances/multicycle_cpu" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                Project Link
+                                GitHub Repo
                             </a>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                    hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Testbenches</h3>
                         <p className="text-gray-300 mb-4">
                         An EDAplayground account is required to access these testbenches. Inside,
@@ -163,9 +181,9 @@ export const Projects = () => {
                             </span>
                         ))}
                         </div>
-                        <div className="flex justify-between items-center mt-4">
+                        <div className="flex justify-left items-center mt-4">
                             <a href="https://github.com/fpfrances/Testbenches" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                Project Link
+                                GitHub Repo
                             </a>
                         </div>
                     </div>
