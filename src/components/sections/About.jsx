@@ -122,7 +122,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-50 bg-black" />
+            <div className="h-80 bg-black" />
             </RevealOnScroll>
         </section>
     );
