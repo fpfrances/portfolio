@@ -70,8 +70,8 @@ export const Contact = () => {
                             placeholder="Message...">
                             </textarea>
                         </div>
-                        <button type="submit" className="translate-y-3 sm:translate-x-43 sm:w-[12.5rem] w-[15rem] mx-auto bg-gradient-to-r from-yellow-500 to-pink-600 text-white py-3 px-6 rounded-full font-medium transition relative overflow-hidden hover:shadow-[0_0_50px_rgba(234,179,8,0.4)]">Send Message</button>
-                        <div className="mt-40 flex justify-center items-center gap-5">
+                        <button type="submit" className="translate-y-7 justify-center sm:translate-x-43 sm:w-[12.5rem] w-[15rem] mx-auto bg-gradient-to-r from-yellow-500 to-pink-600 text-white py-3 rounded-full font-medium transition relative overflow-hidden hover:shadow-[0_0_50px_rgba(234,179,8,0.4)]">Send Message</button>
+                        <div className="mt-40 translate-y-70 flex justify-center items-center gap-5">
                         <a href="https://www.linkedin.com/in/filipefrances/" target="_blank">
                             <FaLinkedin className="text-3xl text-blue-500 hover:text-blue-600 transition" />
                         </a>
