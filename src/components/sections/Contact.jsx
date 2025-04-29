@@ -79,7 +79,7 @@ export const Contact = () => {
                             <FaGithub className="text-3xl text-gray-400 hover:text-white transition" />
                         </a>
                         </div>
-                        <div className="bg-black pb-70"></div>
+                        <div className="bg-black pb-60 sm:pb-40"></div>
                     </form>
                 </div>
             </RevealOnScroll>
