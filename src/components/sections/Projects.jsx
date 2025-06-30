@@ -77,7 +77,7 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">We Love Coffee Website</h3>
                         <p className="text-gray-300 mb-4">
-                        Building using React.js and CSS. It features a clean design with sections for menu, about us, types of coffee, orders and contact.
+                        I built a website using React.js and CSS. It features a clean design with sections for menu, about us, types of coffee, orders and contact.
                         It is designed to provide a great user experience and showcase the coffee roaster's products and services.
                         </p>
                         <div className="flex flex-wrap gap-2">

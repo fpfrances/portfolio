@@ -99,9 +99,9 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Relevant Experience</h3>
                         <div className="space-y-8 text-gray-400">
                             <div>
-                            <h4><strong> We Love Coffee (Jan 25 – Present)</strong></h4>
-                                <p>Developing a dynamic, responsive website for a Brazilian coffee roaster
-                                using React.js and CSS. Implementing intuitive navigation and interactivity
+                            <h4><strong> We Love Coffee (Jan 25 – May 25)</strong></h4>
+                                <p>Developed a dynamic, responsive website for a Brazilian coffee roaster
+                                using React.js and CSS. Implemented intuitive navigation and interactivity
                                 to enhance customer engagement, while ensuring cross-device compatibility.
                                 </p>
                             </div>
