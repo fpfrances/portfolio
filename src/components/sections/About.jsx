@@ -14,6 +14,7 @@ export const About = () => {
         "MongoDB",
         "Node.js",
         "Python",
+        "Supabase",
     ];
 
     const SystemHardwareSkills = [
@@ -99,21 +100,27 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Relevant Experience</h3>
                         <div className="space-y-8 text-gray-400">
                             <div>
-                            <h4><strong> We Love Coffee (Jan 25 – May 25)</strong></h4>
+                            <h4 className="text-white"><strong> Time Tracker App (May 25 – Jun 25)</strong></h4>
+                                <p>Built a lightweight, mobile-friendly time tracking application using React.js, Supabase, Vite, and CSS.
+                                Enables users to clock in/out, manage daily notes, and generate detailed PDF reports to track weekly and monthly productivity.
+                                </p>
+                            </div>
+                            <div>
+                            <h4 className="text-white"><strong> We Love Coffee (Jan 25 – May 25)</strong></h4>
                                 <p>Developed a dynamic, responsive website for a Brazilian coffee roaster
                                 using React.js and CSS. Implemented intuitive navigation and interactivity
                                 to enhance customer engagement, while ensuring cross-device compatibility.
                                 </p>
                             </div>
                             <div>
-                            <h4><strong>Thermal Dune Energy Storage (May 24 – Dec 24)</strong></h4>
+                            <h4 className="text-white"><strong>Thermal Dune Energy Storage (May 24 – Dec 24)</strong></h4>
                                 <p>Built a project documentation website using HTML, CSS, and JavaScript
                                 to improve usability for all stakeholders on the project. Built and implemented
                                 a touchscreen-optimized UI for an ESP32-powered LCD display.
                                 </p>
                             </div>
                             <div>
-                            <h4><strong>Knight's Rental Car (Jan 24 – May 24)</strong></h4>
+                            <h4 className="text-white"><strong>Knight's Rental Car (Jan 24 – May 24)</strong></h4>
                                 <p>Designed end-user-friendly web application for over 100 users using HTML,
                                 CSS, JavaScript, and MongoDB with a key focus on frontend development.
                                 </p>

@@ -8,6 +8,29 @@ export const Projects = () => {
                 Featured Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        <h3 className="text-xl font-bold mb-2">Time Tracker App</h3>
+                        <p className="text-gray-300 mb-4">
+                        A simple and efficient time tracking app built with React, TailwindCSS, Vite, and Supabase.
+                        It lets users clock in/out, add daily notes, track weekly and monthly hours, and generate detailed PDF time reports.
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                            {["JavaScript", "React.js", "Supabase", "Tailwind CSS", "Vite"].map((tech, key) => (
+                            <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                            hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
+                            </span>
+                        ))}
+                        </div>
+                        <div className="flex justify-left items-center mt-4">
+                            <a href="https://fpfrances-time-tracker.vercel.app" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            ➔ Live Demo
+                            </a><span className="text-gray-400">|</span>
+                            <a href="https://github.com/fpfrances/time-tracker-app" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                                GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                     hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Portfolio Website</h3>
                         <p className="text-gray-300 mb-4">
@@ -77,7 +100,7 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">We Love Coffee Website</h3>
                         <p className="text-gray-300 mb-4">
-                        I built a website using React.js and CSS. It features a clean design with sections for menu, about us, types of coffee, orders and contact.
+                        A website built using React.js and CSS. It features a clean design with sections for menu, about us, types of coffee, orders and contact.
                         It is designed to provide a great user experience and showcase the coffee roaster's products and services.
                         </p>
                         <div className="flex flex-wrap gap-2">
@@ -159,27 +182,6 @@ export const Projects = () => {
                         </div>
                         <div className="flex justify-left items-center mt-4">
                         <a href="https://github.com/fpfrances/multicycle_cpu" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
-                                GitHub Repo
-                            </a>
-                        </div>
-                    </div>
-                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
-                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">Testbenches</h3>
-                        <p className="text-gray-300 mb-4">
-                        An EDAplayground account is required to access these testbenches. Inside,
-                        you will find some of the testbenches I have created to verify the
-                        functionality of the designs and ensure that they meet the specifications.
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                            {["VHDL","Verilog"].map((tech, key) => (
-                            <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
-                            hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
-                            </span>
-                        ))}
-                        </div>
-                        <div className="flex justify-left items-center mt-4">
-                            <a href="https://github.com/fpfrances/Testbenches" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
                                 GitHub Repo
                             </a>
                         </div>
