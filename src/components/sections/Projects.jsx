@@ -9,6 +9,46 @@ export const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        <h3 className="text-xl font-bold mb-2">Webtech Forge Labs</h3>
+                        <p className="text-gray-300 mb-4">
+                        Founded and run an IT services venture, designing, launching, and maintaining a responsive
+                        company website while providing ongoing frontend and systems support to keep it fast,
+                        secure, and reliable across devices.
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                            {["IT Support", "JavaScript", "React.js", "Tailwind CSS", "Troubleshooting"].map((tech, key) => (
+                            <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                            hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
+                            </span>
+                        ))}
+                        </div>
+                        <div className="flex justify-left items-center mt-4">
+                            <a href="https://www.webtechforgelabs.com/" target="_blank" className="bg-gradient-to-r from-yellow-500 to-pink-600 bg-clip-text text-transparent text-center px-2">
+                            ➔ Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
+                        <h3 className="text-xl font-bold mb-2">Callao Energy Website</h3>
+                        <p className="text-gray-300 mb-4">
+                        Redesigned the website for a solar energy company to be more responsive and professional,
+                        adding interactive UI elements and data graphs, while providing technical support to keep
+                        the site running smoothly for the client.
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                            {["CSS", "HTML", "IT Support", "JavaScript"].map((tech, key) => (
+                            <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                            hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
+                            </span>
+                        ))}
+                        </div>
+                        <p className="text-gray-500 text-sm mt-4 italic">
+                        Client project — site no longer active.
+                        </p>
+                    </div>
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
+                        hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Time Tracker App</h3>
                         <p className="text-gray-300 mb-4">
                         A simple and efficient time tracking app built with React, TailwindCSS, Vite, and Supabase.
