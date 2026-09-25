@@ -94,7 +94,7 @@ export const About = () => {
                                 <p><strong>HDL in Digital System Design</strong></p><br></br>
                             </li>
                             <li>
-                                <h3 className="text-xl font-bold mb-4 text-gray-200">Certifications</h3>
+                                <h3 className="text-xl font-bold mb-4 text-gray-200">Certificates</h3>
                                 <strong>IBM - Python for Data Science, AI and Development</strong><br></br>
                                 <br></br>                    
                             </li>
