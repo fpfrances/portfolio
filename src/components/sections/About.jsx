@@ -38,7 +38,7 @@ export const About = () => {
                 <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 transition-all hover:shadow-[0_0_20px_rgba(234,179,8,0.4)]">
                 <p className="text-gray-400 mb-1">
                 I'm an IT specialist who works across both support and development. My tech career has grown from a persistent curiosity and desire to learn.
-                I enjoy solving problems wherever they show up — troubleshooting systems and hardware, keeping applications running smoothly, and building intuitive frontend experiences.
+                I enjoy solving problems wherever they show up. From troubleshooting systems and hardware, keeping applications running smoothly to building intuitive frontend experiences.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -92,6 +92,11 @@ export const About = () => {
                                 <p><strong>Object-Oriented Software Development Processes</strong></p>
                                 <p><strong>Verification of Digital System</strong></p>
                                 <p><strong>HDL in Digital System Design</strong></p><br></br>
+                            </li>
+                            <li>
+                                <h3 className="text-xl font-bold mb-4 text-gray-200">Certifications</h3>
+                                <strong>IBM - Python for Data Science, AI and Development</strong><br></br>
+                                <br></br>                    
                             </li>
                             <li>
                                 <h3 className="text-xl font-bold mb-4 text-gray-200">Award</h3>

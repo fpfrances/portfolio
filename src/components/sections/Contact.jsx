@@ -71,7 +71,7 @@ export const Contact = () => {
                             </textarea>
                         </div>
                         <button type="submit" className="translate-y-10 justify-center items-center sm:translate-x-43 sm:w-[12.5rem] w-[15rem] mx-auto bg-gradient-to-r from-yellow-500 to-pink-600 text-white py-3 rounded-full font-medium transition relative overflow-hidden hover:shadow-[0_0_50px_rgba(234,179,8,0.4)]">Send Message</button>
-                        <div className="translate-y-60 sm:translate-y-120 flex justify-center items-center gap-5">
+                        <div className="translate-y-60 sm:translate-y-60 flex justify-center items-center gap-5">
                         <a href="https://www.linkedin.com/in/filipefrances/" target="_blank">
                             <FaLinkedin className="text-3xl text-blue-500 hover:text-blue-600 transition" />
                         </a>
