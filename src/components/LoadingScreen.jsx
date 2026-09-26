@@ -3,7 +3,7 @@ import logo from "/Mini_logo.png";
 
 export const LoadingScreen = ({ onComplete }) => {
     const [text, setText] = useState("");
-    const fullText = "Filipe (Suarez Rodrigues) Frances";
+    const fullText = "Filipe (Pestana Frances) Rodrigues";
 
     useEffect(() => {
         let index = 0;
