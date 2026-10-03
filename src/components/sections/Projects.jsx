@@ -54,7 +54,7 @@ export const Projects = () => {
                         add daily notes, see a weekly chart of hours per day, and generate PDF time reports for weekly and monthly hours.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["JavaScript", "React.js", "Supabase", "Tailwind CSS", "Vite"].map((tech, key) => (
+                            {["JavaScript", "React.js", "Supabase", "Tailwind CSS", "Vite", "Recharts"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -94,7 +94,7 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Thermal Dune Energy Storage UI/UX</h3>
                         <p className="text-gray-300 mb-4">
                         An LCD UI/UX design project for a thermal energy storage system. The design focuses on user experience and usability,
-                        with an emphasis on intuitive navigation and clear information presentation.
+                        with an emphasis on intuitive navigation and clear information presentation. The screen connects to a companion app built by a teammate through MongoDB.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {["C++", "Collaboration", "MongoDB", "Teamwork"].map((tech, key) => (

@@ -6,7 +6,8 @@ export const About = () => {
         "HTML",
         "JavaScript",
         "React.js",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "Recharts",
     ];
 
     const BackendSkills = [
@@ -124,7 +125,7 @@ export const About = () => {
                             </div>
                             <div>
                             <h4 className="text-white"><strong> Time Tracker App (May 25 – Jun 25)</strong></h4>
-                                <p>BBuilt a lightweight, mobile-friendly time tracking app using React, Tailwind CSS, Vite, Supabase and Recharts.
+                                <p>Built a lightweight, mobile-friendly time tracking app using React, Tailwind CSS, Vite, Supabase and Recharts.
                                 Users can clock in and out, add daily notes, view a weekly chart of hours worked per day, and generate PDF reports for weekly and monthly hours.
                                 </p>
                             </div>
