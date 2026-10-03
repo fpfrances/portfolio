@@ -11,9 +11,8 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Webtech Forge Labs</h3>
                         <p className="text-gray-300 mb-4">
-                        Founded and run an IT services venture, designing, launching, and maintaining a responsive
-                        company website while providing ongoing frontend and systems support to keep it fast,
-                        secure, and reliable across devices.
+                        Founded and ran an IT services venture, designing, launching, and maintaining a responsive company website
+                        while providing frontend and systems support to keep it fast and reliable across devices.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {["IT Support", "JavaScript", "React.js", "Tailwind CSS", "Troubleshooting"].map((tech, key) => (
@@ -51,8 +50,8 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Time Tracker App</h3>
                         <p className="text-gray-300 mb-4">
-                        A simple and efficient time tracking app built with React, TailwindCSS, Vite, and Supabase.
-                        It lets users clock in/out, add daily notes, track weekly and monthly hours, and generate detailed PDF time reports.
+                        A time tracking app built with React, Tailwind CSS, Vite, and Supabase. Users can clock in and out,
+                        add daily notes, see a weekly chart of hours per day, and generate PDF time reports for weekly and monthly hours.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {["JavaScript", "React.js", "Supabase", "Tailwind CSS", "Vite"].map((tech, key) => (
@@ -163,8 +162,8 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">AI-Powered ATS Resume Scanner</h3>
                         <p className="text-gray-300 mb-4">
-                        This intelligent resume scanner simulates an Applicant Tracking System (ATS) with LLMs simulating how much a resume fits a job description.
-                        Even though it does not exactly replicate corporate ATS system, it gives an accurate estimate of performance by focusing on technical and soft skills.
+                        An AI-powered prototype that estimates how well a resume matches a job description. It combines LLMs (OpenAI API, LlamaIndex) with
+                        a keyword dictionary of technical and soft skills. Results are approximate, not exact, and it does not replicate corporate ATS systems.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {["Flask", "GPT-3.5", "JavaScript", "LlamaIndex", "OpenAI API", "Python", "Tailwind CSS", "Vite"].map((tech, key) => (

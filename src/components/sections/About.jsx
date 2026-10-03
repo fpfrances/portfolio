@@ -110,8 +110,8 @@ export const About = () => {
                         <div className="space-y-8 text-gray-400">
                             <div>
                             <h4 className="text-white"><strong>Webtech Forge Labs (Sep 25 – Jun 26)</strong></h4>
-                                <p>Founded and ran an IT services venture: designed, launched, and maintained a responsive
-                                company website, while providing ongoing frontend and systems support to keep it fast and reliable
+                                <p>Founded an IT services venture: designed, launched, and maintained a responsive
+                                company website, while providing frontend and systems support to keep it fast and reliable
                                 across devices.
                                 </p>
                             </div>
@@ -124,8 +124,8 @@ export const About = () => {
                             </div>
                             <div>
                             <h4 className="text-white"><strong> Time Tracker App (May 25 – Jun 25)</strong></h4>
-                                <p>Built a lightweight, mobile-friendly time tracking application using React.js, Supabase, Vite, and CSS.
-                                Enables users to clock in/out, manage daily notes, and generate detailed PDF reports to track weekly and monthly productivity.
+                                <p>BBuilt a lightweight, mobile-friendly time tracking app using React, Tailwind CSS, Vite, Supabase and Recharts.
+                                Users can clock in and out, add daily notes, view a weekly chart of hours worked per day, and generate PDF reports for weekly and monthly hours.
                                 </p>
                             </div>
                             <div>
