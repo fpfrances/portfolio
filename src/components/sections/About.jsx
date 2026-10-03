@@ -109,7 +109,7 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Relevant Experience</h3>
                         <div className="space-y-8 text-gray-400">
                             <div>
-                            <h4 className="text-white"><strong>Webtech Forge Labs (Sep 25 – Nov 25)</strong></h4>
+                            <h4 className="text-white"><strong>Webtech Forge Labs (Sep 25 – Jun 26)</strong></h4>
                                 <p>Founded and ran an IT services venture: designed, launched, and maintained a responsive
                                 company website, while providing ongoing frontend and systems support to keep it fast and reliable
                                 across devices.
