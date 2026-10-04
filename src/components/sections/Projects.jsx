@@ -93,8 +93,9 @@ export const Projects = () => {
                     hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Thermal Dune Energy Storage UI/UX</h3>
                         <p className="text-gray-300 mb-4">
-                        An LCD UI/UX design project for a thermal energy storage system. The design focuses on user experience and usability,
-                        with an emphasis on intuitive navigation and clear information presentation. The screen connects to a companion app built by a teammate through MongoDB.
+                        A team project: a touchscreen interface for a thermal energy storage system.
+                        I designed and built the UI for the ESP32-powered LCD, focusing on intuitive navigation and clear information presentation.
+                        The screen connects to a companion app built by a teammate, which uses MongoDB.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {["C++", "Collaboration", "MongoDB", "Teamwork"].map((tech, key) => (

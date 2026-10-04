@@ -12,7 +12,6 @@ export const About = () => {
 
     const BackendSkills = [
         "Java",
-        "MongoDB",
         "Node.js",
         "Python",
         "Supabase",
