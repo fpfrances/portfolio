@@ -11,11 +11,11 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Webtech Forge Labs</h3>
                         <p className="text-gray-300 mb-4">
-                        Founded and ran an IT services venture, designing, launching, and maintaining a responsive company website
-                        while providing frontend and systems support to keep it fast and reliable across devices.
+                        Founded web development venture, designing, launching, and maintaining a responsive company website
+                        while providing frontend and support to keep it fast and reliable across devices.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["IT Support", "JavaScript", "React.js", "Tailwind CSS", "Troubleshooting"].map((tech, key) => (
+                            {["JavaScript", "React.js", "Tailwind CSS", "Troubleshooting"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -32,11 +32,10 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Callao Energy Website</h3>
                         <p className="text-gray-300 mb-4">
                         Redesigned the website for a solar energy company to be more responsive and professional,
-                        adding interactive UI elements and data graphs, while providing technical support to keep
-                        the site running smoothly for the client.
+                        adding interactive UI elements and worked close to the owner.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["CSS", "HTML", "IT Support", "JavaScript"].map((tech, key) => (
+                            {["CSS", "HTML", "JavaScript"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -73,7 +72,7 @@ export const Projects = () => {
                     hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Portfolio Website</h3>
                         <p className="text-gray-300 mb-4">
-                        Built with React.js and TailwindCSS, this portfolio showcases some of my projects and skills.
+                        Built with React.js and Tailwind CSS, this portfolio showcases some of my projects and skills.
                         It features a responsive design to ensure cross-device compatibility, smooth scrolling, and a contact form using EmailJS.
                         </p>
                         <div className="flex flex-wrap gap-2">
@@ -161,7 +160,7 @@ export const Projects = () => {
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">AI-Powered ATS Resume Scanner</h3>
+                        <h3 className="text-xl font-bold mb-2">AI Resume Scanner (ATS Prototype)</h3>
                         <p className="text-gray-300 mb-4">
                         An AI-powered prototype that estimates how well a resume matches a job description. It combines LLMs (OpenAI API, LlamaIndex) with
                         a keyword dictionary of technical and soft skills. Results are approximate, not exact, and it does not replicate corporate ATS systems.
@@ -188,7 +187,7 @@ export const Projects = () => {
                         <p className="text-gray-300 mb-4">
                         A web application to rent cars, where users can browse through available cars, rent them, and manage their rentals.
                         The website has features like user authentication, car listing, and a booking system. P.s. This was my first website and I worked 
-                        mainly UI/UX.
+                        mainly on UI/UX.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {[ "Collaboration", "CSS", "Express.js", "HTML", "JavaScript", "MongoDB", "Node.js", "Teamwork"].map((tech, key) => (
