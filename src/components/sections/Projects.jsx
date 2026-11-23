@@ -11,11 +11,11 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Webtech Forge Labs</h3>
                         <p className="text-gray-300 mb-4">
-                        Founded web development venture, designing, launching, and maintaining a responsive company website,
-                        fixing frontend issues and adding interactive UI compoments for usability and acessibility.
+                        Founded a small web development venture, designing, launching, and maintaining a responsive
+                        company website and fixing frontend issues to keep it fast and reliable across devices.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["JavaScript", "React.js", "Tailwind CSS", "Troubleshooting"].map((tech, key) => (
+                            {["CSS", "HTML", "JavaScript", "React.js", "Vite"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -32,7 +32,7 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Callao Energy Website</h3>
                         <p className="text-gray-300 mb-4">
                         Redesigned the website for a solar energy company to be more responsive and professional,
-                        adding interactive UI elements and worked close to the owner.
+                        adding interactive UI elements and working closely with the owner.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {["CSS", "HTML", "JavaScript"].map((tech, key) => (
@@ -53,7 +53,7 @@ export const Projects = () => {
                         add daily notes, see a weekly chart of hours per day, and generate PDF time reports for weekly and monthly hours.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["JavaScript", "React.js", "Supabase", "Tailwind CSS", "Vite", "Recharts"].map((tech, key) => (
+                            {["CSS", "HTML", "JavaScript", "React.js", "Recharts", "Supabase", "Vite"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -166,7 +166,7 @@ export const Projects = () => {
                         a keyword dictionary of technical and soft skills. Results are approximate, not exact, and it does not replicate corporate ATS systems.
                         </p>
                         <div className="flex flex-wrap gap-2">
-                            {["Flask", "GPT-3.5", "JavaScript", "LlamaIndex", "OpenAI API", "Python", "Tailwind CSS", "Vite"].map((tech, key) => (
+                            {["Flask", "GPT-3.5", "HTML", "JavaScript", "LlamaIndex", "OpenAI API", "Python", "Tailwind CSS", "Vite"].map((tech, key) => (
                             <span key={key} className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                             hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition-all">{tech}
                             </span>
@@ -186,7 +186,7 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Knight's Rental Car Website</h3>
                         <p className="text-gray-300 mb-4">
                         A web application to rent cars, where users can browse through available cars, rent them, and manage their rentals.
-                        The website has features like user authentication, car listing, and a booking system. P.s. This was my first website and I worked 
+                        The website has features like user authentication, car listing, and a booking system. P.S. This was my first website and I worked 
                         mainly on UI/UX.
                         </p>
                         <div className="flex flex-wrap gap-2">

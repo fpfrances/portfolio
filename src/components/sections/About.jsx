@@ -83,13 +83,13 @@ export const About = () => {
                                 <strong>Bachelor of Science in Computer Engineering</strong> 
                                 <p>University of Central Florida</p>
                                 <p>Graduated: Fall 2024</p>
-                                <p>GPA: 3.1/4.0</p><br></br>
+                                <p>GPA: 3.11/4.0</p><br></br>
                             </li>
                             <li>
                                 <strong>Licenciatura (Degree equivalence)</strong> 
                                 <p>Universidade do Porto</p>
-                                <p>Recognition: Oct 2026</p>
-                                <p>Nota: 16/20</p><br></br>
+                                <p>Issued: Oct 2026</p>
+                                <p>Grade: 16/20</p><br></br>
                             </li>
                             <li>
                                 <h3 className="text-xl font-bold mb-4 text-gray-200">Coursework</h3>
@@ -101,7 +101,7 @@ export const About = () => {
                             <li>
                                 <h3 className="text-xl font-bold mb-4 text-gray-200">Certificates</h3>
                                 <strong>IBM - Python for Data Science, AI and Development</strong><br></br>
-                                <p>Recognition: Sep 2026</p>
+                                <p>Issued: Sep 2026</p>
                                 <br></br>                    
                             </li>
                             <li>
@@ -117,8 +117,8 @@ export const About = () => {
                             <div>
                             <h4 className="text-white"><strong>Webtech Forge Labs (Sep 25 – Jun 26)</strong></h4>
                                 <p>Founded a small web development venture: designed, launched, and maintained a responsive
-                                company website, fixing frontend issues and adding interactive UI compoments for usability 
-                                and acessibility.
+                                company website, fixing frontend issues and adding interactive UI components for usability 
+                                and accessibility.
                                 </p>
                             </div>
                             <div>
