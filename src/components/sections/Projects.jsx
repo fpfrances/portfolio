@@ -11,8 +11,8 @@ export const Projects = () => {
                         hover:shadow-[0_0_15px_rgba(234,179,8,0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Webtech Forge Labs</h3>
                         <p className="text-gray-300 mb-4">
-                        Founded web development venture, designing, launching, and maintaining a responsive company website
-                        while providing frontend and support to keep it fast and reliable across devices.
+                        Founded web development venture, designing, launching, and maintaining a responsive company website,
+                        fixing frontend issues and adding interactive UI compoments for usability and acessibility.
                         </p>
                         <div className="flex flex-wrap gap-2">
                             {["JavaScript", "React.js", "Tailwind CSS", "Troubleshooting"].map((tech, key) => (
